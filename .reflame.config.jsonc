@@ -2,25 +2,41 @@
   // This is a JSON with Comments file.
   // It's basically JSON, with the addition of comments, and looser syntax 
   // (trailing commas!).
-  
   // Reflame uses this to identify your app.
-  "appId": "01HPNCVJ10YPPBS7Q8JWZFBXRD",
-    
+  "appId": "01HPNCVJ10YPPBS7Q8JWZFBXRD", // dev
+  // "appId": "01HPNC311W9FE75T8QJE1DZZNZ", // prod
   // This is what shows up in the browser's tab bar.
   "title": "Reflame App",
   // This is the description that shows up in Google search.
   "description": "A new Reflame app.",
-
+  "sourceDirectory": "app",
   // Reflame will watch this directory for your React source code and deploy changes
   // instantly.
-  "sourceDirectory": "app",
-    
   // Reflame will use this to keep your app up to date as we make improvements.
   "foundation": {
     "name": "just-react",
     "version": 2,
   },
-
+  "libraries": {
+    // "@webstudio-is/builder": {
+    //   "sourceDirectory": "apps/builder/app",
+    //   "storybookCompatibility": {
+    //     "testStories": true
+    //   },
+    //   "nodejsCompatibility": {
+    //     "packageJson": true,
+    //   }
+    // },
+    "@webstudio-is/design-system": {
+      "sourceDirectory": "packages/design-system/src",
+      "storybookCompatibility": {
+        "testStories": true
+      },
+      "nodejsCompatibility": {
+        "packageJson": true,
+      }
+    }
+  },
   // NPM packages listed here will be installed by Reflame every time you update this file.
   // 
   // It's important to only include packages that will be used by your app in browsers here.
