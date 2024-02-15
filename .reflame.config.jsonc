@@ -43,6 +43,9 @@
       },
       "nodejsCompatibility": {
         "packageJson": true,
+        "exportsDetection": {
+          "ignoreTopLevelDirectory": true
+        },
       }
     }
   },
