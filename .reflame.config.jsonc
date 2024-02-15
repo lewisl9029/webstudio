@@ -35,6 +35,15 @@
       "nodejsCompatibility": {
         "packageJson": true,
       }
+    },
+    "@webstudio-is/icons": {
+      "sourceDirectory": "packages/icons/src",
+      "storybookCompatibility": {
+        "testStories": true
+      },
+      "nodejsCompatibility": {
+        "packageJson": true,
+      }
     }
   },
   // NPM packages listed here will be installed by Reflame every time you update this file.
