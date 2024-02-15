@@ -14,7 +14,7 @@ export const Demo = () => {
       <StorySection title="Panel Banner">
         <StoryGrid horizontal>
           <PanelBanner css={{ width: 300 }}>
-            <Text variant="regularBold">Free domains limit reached</Text>
+            <Text variant="regularBold">Free domains limit reached!!!</Text>
             <Text variant="regular">
               You have reached the limit of 5 custom domains on your account.{" "}
               <Text variant="regularBold" inline>
