@@ -38,14 +38,14 @@
     },
     "@webstudio-is/icons": {
       "sourceDirectory": "packages/icons/src",
+      "exports": {
+        ".": "./index.ts"
+      },
       "storybookCompatibility": {
         "testStories": true
       },
       "nodejsCompatibility": {
         "packageJson": true,
-        "exportsDetection": {
-          "ignoreTopLevelDirectory": true
-        },
       }
     }
   },
