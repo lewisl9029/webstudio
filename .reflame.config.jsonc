@@ -36,6 +36,7 @@
         "packageJson": true,
       },
       "npmPackages": {
+        "@storybook/addon-actions": "^7.4.0",
         "react-hot-toast": {
           "entryPoints": [
             "/headless",
