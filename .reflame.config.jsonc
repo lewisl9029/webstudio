@@ -3,8 +3,8 @@
   // It's basically JSON, with the addition of comments, and looser syntax 
   // (trailing commas!).
   // Reflame uses this to identify your app.
-  "appId": "01HPNCVJ10YPPBS7Q8JWZFBXRD", // dev
-  // "appId": "01HPNC311W9FE75T8QJE1DZZNZ", // prod
+  // "appId": "01HPNCVJ10YPPBS7Q8JWZFBXRD", // dev
+  "appId": "01HPNC311W9FE75T8QJE1DZZNZ", // prod
   // This is what shows up in the browser's tab bar.
   "title": "Reflame App",
   // This is the description that shows up in Google search.
